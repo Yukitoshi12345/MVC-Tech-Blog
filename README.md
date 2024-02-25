@@ -94,3 +94,14 @@ npm i sequelize
 `
 npm i dotenv
 `
+
+## Screenshot
+![]()
+
+## Video
+A walk through video is [here]().
+
+## Output
+
+## License
+This project is licensed under the [MIT License](https://github.com/Yukitoshi12345/MVC-Tech-Blog/blob/main/LICENSE).
