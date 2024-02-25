@@ -1,12 +1,5 @@
 <h1 align = "center">MVC Tech Blog </h1>
 
-## User Story
-```md
-AS A developer who writes about tech
-I WANT a CMS-style blog site
-SO THAT I can publish articles, blog posts, and my thoughts and opinions
-```
-
 ## Table of Contents
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
@@ -18,6 +11,13 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 - [Output](#output)
 - [Installation](#installation)
 - [License](#license)
+
+## User Story
+```md
+AS A developer who writes about tech
+I WANT a CMS-style blog site
+SO THAT I can publish articles, blog posts, and my thoughts and opinions
+```
 
 ## Acceptance Criteria
 ```md
@@ -55,3 +55,42 @@ THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view posts and comments but I am prompted to log in again before I can add, update, or delete posts
 ```
+
+## Technologies Used
+- JavaScript
+- Node.js
+- Express.js (version 4.18.2)
+- MySQL2 (version 3.9.1)
+- Sequelize (version 6.37.1)
+- Dotenv (version 16.4.4)
+
+## Installation Instruction
+- [Install nodejs and npm](https://nodejs.org/en/download) 
+- [Install MySQL](https://dev.mysql.com/downloads/mysql/)
+- [Install Insomnia](https://insomnia.rest/download)
+
+## Test Instruction
+#### Command to install packages and any packages it depends on:
+`
+npm install
+`
+
+#### Command to install Express dependencies:
+`
+npm i express
+`
+
+#### Command to install MySQL2 dependencies:
+`
+npm i mysql2
+`
+
+#### Command to install Sequelize dependencies:
+`
+npm i sequelize
+`
+
+#### Command to install Dotenv dependencies:
+`
+npm i dotenv
+`
