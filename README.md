@@ -7,6 +7,18 @@ I WANT a CMS-style blog site
 SO THAT I can publish articles, blog posts, and my thoughts and opinions
 ```
 
+## Table of Contents
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Technologies Used](#technologies-used)
+- [Installation Instruction](#installation-instruction)
+- [Test Instruction](#test-instruction)
+- [Screenshot](#screenshot)
+- [Video](#video)
+- [Output](#output)
+- [Installation](#installation)
+- [License](#license)
+
 ## Acceptance Criteria
 ```md
 GIVEN a CMS-style blog site
