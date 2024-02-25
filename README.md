@@ -1,5 +1,7 @@
 <h1 align = "center">MVC Tech Blog </h1>
 
+Imagine you're a developer passionate about sharing your tech knowledge and insights. You crave a platform to express yourself through articles, blog posts, and opinions. This CMS-style blog site caters precisely to your needs. It empowers you to publish your content, manage your posts, and engage with readers through comments, all within a user-friendly interface. Let's delve into the functionalities offered by this platform and explore how it can become your perfect platform for creative expression.
+
 ## Table of Contents
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
