@@ -103,5 +103,10 @@ A walk through video is [here]().
 
 ## Output
 
+
+## Installation
+The project was uploaded to [GitHub](https://github.com/) at the following repository:
+[https://github.com/yukitoshi12345/MVC-Tech-Blog/](https://github.com/yukitoshi12345/MVC-Tech-Blog)
+
 ## License
 This project is licensed under the [MIT License](https://github.com/Yukitoshi12345/MVC-Tech-Blog/blob/main/LICENSE).
