@@ -1,3 +1,5 @@
+![CSS](https://img.shields.io/badge/CSS-red) ![JavaScript](https://img.shields.io/badge/JavaScript-orange) ![Node.js](https://img.shields.io/badge/Node.js-blue) ![Express.js@4.18.2](https://img.shields.io/badge/Express.js@4.18.2-purple) ![MySQL2@3.9.1](https://img.shields.io/badge/MySQL2@3.9.1-lightgreen) ![Sequelize@6.37.1](https://img.shields.io/badge/Sequelize@6.37.1-lightblue) ![Dotenv@16.4.5](https://img.shields.io/badge/Dotenv@16.4.5-grey)
+
 <h1 align = "center">MVC Tech Blog </h1>
 
 Imagine you're a developer passionate about sharing your tech knowledge and insights. You crave a platform to express yourself through articles, blog posts, and opinions. This CMS-style blog site caters precisely to your needs. It empowers you to publish your content, manage your posts, and engage with readers through comments, all within a user-friendly interface. Let's delve into the functionalities offered by this platform and explore how it can become your perfect platform for creative expression.
@@ -59,6 +61,7 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 ```
 
 ## Technologies Used
+- CSS
 - JavaScript
 - Node.js
 - Bcrypt (version 5.1.1)
