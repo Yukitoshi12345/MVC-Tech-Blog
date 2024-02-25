@@ -61,14 +61,14 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 ## Technologies Used
 - JavaScript
 - Node.js
-- Bcrypt
+- Bcrypt (version 5.1.1)
 - Express.js (version 4.18.2)
-- Express-Handlebars
-- Express-Session
+- Express-Handlebars (version 7.1.2)
+- Express-Session (version 1.18.0)
 - MySQL2 (version 3.9.1)
 - Sequelize (version 6.37.1)
-- Connect Session Sequelize
-- Dotenv (version 16.4.4)
+- Connect Session Sequelize (version 7.1.7)
+- Dotenv (version 16.4.5)
 
 ## Installation Instruction
 - [Install nodejs and npm](https://nodejs.org/en/download) 
