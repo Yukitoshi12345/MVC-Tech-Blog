@@ -5,6 +5,7 @@
 Imagine you're a developer passionate about sharing your tech knowledge and insights. You crave a platform to express yourself through articles, blog posts, and opinions. This CMS-style blog site caters precisely to your needs. It empowers you to publish your content, manage your posts, and engage with readers through comments, all within a user-friendly interface. Let's delve into the functionalities offered by this platform and explore how it can become your perfect platform for creative expression.
 
 ## Table of Contents
+
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
 - [Technologies Used](#technologies-used)
@@ -17,6 +18,7 @@ Imagine you're a developer passionate about sharing your tech knowledge and insi
 - [License](#license)
 
 ## User Story
+
 ```md
 AS A developer who writes about tech
 I WANT a CMS-style blog site
@@ -24,6 +26,7 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 ```
 
 ## Acceptance Criteria
+
 ```md
 GIVEN a CMS-style blog site
 WHEN I visit the site for the first time
@@ -61,6 +64,7 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 ```
 
 ## Technologies Used
+
 - CSS
 - JavaScript
 - Node.js
@@ -74,67 +78,66 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 - Dotenv (version 16.4.5)
 
 ## Installation Instruction
-- [Install nodejs and npm](https://nodejs.org/en/download) 
+
+- [Install nodejs and npm](https://nodejs.org/en/download)
 - [Install MySQL](https://dev.mysql.com/downloads/mysql/)
 - [Install Insomnia](https://insomnia.rest/download)
 
 ## Test Instruction
+
 #### Command to install packages and any packages it depends on:
-`
-npm install
-`
+
+`npm install`
 
 #### Command to install Express dependencies:
-`
-npm i express
-`
+
+`npm i express`
 
 #### Command to install Express-Handlebars dependencies:
-`
-npm i express-handlebars
-`
+
+`npm i express-handlebars`
 
 #### Command to install Express-Session dependencies:
-`
-npm i express-session
-`
+
+`npm i express-session`
 
 #### Command to install MySQL2 dependencies:
-`
-npm i mysql2
-`
+
+`npm i mysql2`
+
 #### Command to install Bcrypt dependencies:
-`
-npm i bcrypt
-`
+
+`npm i bcrypt`
 
 #### Command to install Sequelize dependencies:
-`
-npm i sequelize
-`
+
+`npm i sequelize`
 
 #### Command to install Connect-Session-Sequelize dependencies:
-`
-npm i connect-session-sequelize
-`
+
+`npm i connect-session-sequelize`
 
 #### Command to install Dotenv dependencies:
-`
-npm i dotenv
-`
+
+`npm i dotenv`
 
 ## Screenshot
+
 ![]()
 
 ## Video
+
 A walk through video is [here]().
 
 ## Output
 
-
 ## Installation
+
 The project was uploaded to [GitHub](https://github.com/) at the following repository:
 [https://github.com/yukitoshi12345/MVC-Tech-Blog/](https://github.com/yukitoshi12345/MVC-Tech-Blog)
 
 ## License
+
 This project is licensed under the [MIT License](https://github.com/Yukitoshi12345/MVC-Tech-Blog/blob/main/LICENSE).
+
+d
