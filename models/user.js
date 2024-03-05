@@ -15,7 +15,7 @@ class User extends Model {
   }
 }
 
-// 4. Initialize the User model with attributes and options
+// 4. Initialise the User model with attributes and options
 User.init(
   // Define the model's attributes
   {
