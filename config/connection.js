@@ -1,8 +1,8 @@
 // Import the Sequelize library for connecting to databases
-const Sequelize = require("sequelize");
+const Sequelize = require('sequelize');
 
 // Use "dotenv" to access environment variables from a `.env` file
-require("dotenv").config();
+require('dotenv').config();
 
 // Create a Sequelize connection instance
 const sequelize = new Sequelize(
@@ -15,10 +15,10 @@ const sequelize = new Sequelize(
 
   // Additional connection options
   {
-    host: "localhost", // Database host (localhost in this case)
-    dialect: "mysql", // Database dialect (MySQL in this case)
+    host: 'localhost', // Database host (localhost in this case)
+    dialect: 'mysql', // Database dialect (MySQL in this case)
     port: 3306, // Database port (default MySQL port)
-  }
+  },
 );
 
 // Export the Sequelize instance for use in other modules
