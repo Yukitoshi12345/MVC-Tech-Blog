@@ -5,9 +5,9 @@
 // User has many comments
 // Comment belong to post
 
-const User = require('./user');
 const Comment = require('./comment');
 const Post = require('./post');
+const User = require('./user');
 
 User.hasMany(Post, {
   foreignKey: 'user_id',
