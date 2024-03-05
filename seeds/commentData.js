@@ -34,8 +34,10 @@ const commentData = [
   },
 ];
 
-// Define a function `seedComment` to create comments in bulk
-const seedComment = () => Comment.bulkCreate(commentData);
+// Define a function `seedComment` to create comment in bulk
+const seedComment = async () =>
+  // Use the Comment model to create multiple comment in one operation using 'bulkCreate'
+  await Comment.bulkCreate(commentData);
 
 // Use the Comment model to create multiple comments in one operation using 'bulkCreate'
 module.exports = seedComment;
