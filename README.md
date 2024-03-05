@@ -139,5 +139,3 @@ The project was uploaded to [GitHub](https://github.com/) at the following repos
 ## License
 
 This project is licensed under the [MIT License](https://github.com/Yukitoshi12345/MVC-Tech-Blog/blob/main/LICENSE).
-
-d
