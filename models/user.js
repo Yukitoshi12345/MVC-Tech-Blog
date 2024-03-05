@@ -62,6 +62,7 @@ User.init(
       },
     },
   },
+
   // Options for the model
   {
     // Hooks for password hashing before creating or updating a user
@@ -78,6 +79,7 @@ User.init(
         return updatedUserData;
       },
     },
+
     // Use the configured database connection
     sequelize,
     // Disable timestamps (createdAt and updatedAt)
