@@ -4,7 +4,12 @@
   "description": "<h1 align = \"center\">MVC Tech Blog </h1>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server",
+    "db:init": "mysql -u root -p < db/schema.sql && echo 'Database initialised.'",
+    "db:seed": "npm run db:init && npm run seed && echo 'Database seeded.'",
+    "seed": "node seeds/seed",
+    "start": "npm run db:seed && node server.js"
   },
   "keywords": [],
   "author": "",
