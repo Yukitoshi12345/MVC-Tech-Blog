@@ -85,42 +85,6 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 
 ## Test Instruction
 
-#### Command to install packages and any packages it depends on:
-
-`npm install`
-
-#### Command to install Express dependencies:
-
-`npm i express`
-
-#### Command to install Express-Handlebars dependencies:
-
-`npm i express-handlebars`
-
-#### Command to install Express-Session dependencies:
-
-`npm i express-session`
-
-#### Command to install MySQL2 dependencies:
-
-`npm i mysql2`
-
-#### Command to install Bcrypt dependencies:
-
-`npm i bcrypt`
-
-#### Command to install Sequelize dependencies:
-
-`npm i sequelize`
-
-#### Command to install Connect-Session-Sequelize dependencies:
-
-`npm i connect-session-sequelize`
-
-#### Command to install Dotenv dependencies:
-
-`npm i dotenv`
-
 ## Screenshot
 
 ![]()
