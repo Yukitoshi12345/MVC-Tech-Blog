@@ -6,12 +6,20 @@ const exphbs = require('express-handlebars'); // Templating engine
 const routes = require('./controllers'); // Import routes from the controllers folder
 const helpers = require('./utils/helpers'); // Import custom Handlebars helpers
 
+// Import the custom cLog middleware from the middleware/clog.js file
+const { clog } = require('./middleware/clog');
+
 // Database connection and session store configuration
 const sequelize = require('./config/connection'); // Sequelize database connection
 const SequelizeStore = require('connect-session-sequelize')(session.Store); // Connect-session-sequelize for Sequelize session storage
 
 // Initialise Express application
 const app = express();
+
+// Import custom middleware, "clog"
+// Apply the custom clog middleware to log request details
+app.use(clog);
+
 // Define the port to listen on (from environment variable or default)
 const PORT = process.env.PORT || 3001;
 
